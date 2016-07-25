@@ -1,0 +1,21 @@
+<div class="btn-group col-xs-12 pd">
+    <div class=" btn btn-default dropdown-toggle select-div" 
+    data-toggle="dropdown">
+    
+<!--     {{select.name}} -->
+<span ng-repeat="h in selects" ng-show='h.state' class="select-content">
+  {{h.name}}
+</span>
+        
+    </div>
+    <ul class="dropdown-menu select-drop-ul" role="menu">
+        <li id="selectCheck" ng-repeat="select in selects" class="select-drop-li">
+        <label  ng-click="selectlabel($event)" class="a">
+             <input class="check-box3" 
+                    ng-click="selectCheck(select,$event)"
+                    type="checkbox">
+           <span>{{select.name}}</span>  
+        </label>
+     </li>
+    </ul>
+</div>

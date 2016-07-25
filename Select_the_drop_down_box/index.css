@@ -1,0 +1,43 @@
+.pd {
+  padding: 0 !important; }
+
+.select-drop-ul {
+  width: 200px;
+  padding-left: 5px;
+  font-size: 14px; }
+
+.select-div {
+  height: 30px;
+  width: 200px;
+  padding: 0 !important; }
+
+.select-content {
+  height: 30px;
+  line-height: 30px;
+  padding: 4px;
+  border-radius: 2px;
+  background: lightgray;
+  margin-right: 4px; }
+
+.col-blue {
+  color: #2db7f5; }
+
+.select-drop-li {
+  width: 100%;
+}
+#selectCheck {
+  width: 100%;
+}
+.a {
+  width: 100% !important;
+  color:#000000;
+}
+span {
+  padding: 0;
+  margin: 0;
+}
+
+input {
+  padding: 0 !important;
+  margin: 0 !important;
+}
