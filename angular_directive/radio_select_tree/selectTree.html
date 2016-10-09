@@ -1,0 +1,17 @@
+<span class="select-tree-span" ng-init="flag=swit.swit">
+<!-- 	<span  ng-click="flag=!flag">
+		
+	</span> -->
+	<label for="{{option.name}}" ng-click="flag=!flag">
+		<span>{{option.name}}</span> 
+	</label> 
+	<ul ng-if="flag">  
+	    <li ng-repeat="subfolder in option.children" ng-click="isLeaf(subfolder,$event)">
+	    <!-- <label for="{{subfolder.name}}">
+	    	<span ng-if='swit=="on"'>{{subfolder.name}}</span>
+	    </label>  -->
+	    	<input id="{{subfolder.name}}" ng-if='subfolder.type==true' ng-click="showData(subfolder)" name="radio" type="radio">
+	        <select-tree option="subfolder" swit="swit"></select-tree> 
+	    </li>  
+	</ul> 
+</span> 

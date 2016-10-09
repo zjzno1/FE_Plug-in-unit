@@ -1,0 +1,28 @@
+.show-select {
+	height: 30px;
+	width: 300px;
+	position: relative;
+}
+.fl-right {
+	float: right;
+}
+.select-tree-caret {
+	position: absolute;
+	right: 5px;
+	top: 15px;
+}
+.dropdown-menu {
+	width: 300px;
+}
+
+.select-tree-span li {
+	list-style-type:none;
+}
+.select-radio-input {
+	float: left;
+	margin-left: 5px;
+}
+.select-tree-menu {
+	max-height: 300px;
+	overflow: auto;
+}
